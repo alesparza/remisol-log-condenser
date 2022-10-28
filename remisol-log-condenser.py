@@ -7,7 +7,9 @@ from openpyxl import Workbook
 import logMessage
 
 DEBUG: bool = False
-USAGE: str = 'Usage message'
+USAGE: str = """usage: remisol-log-condenser.py -i <inputfile> -o <outputfile> 
+alt-usage: remisol-log-condenser.py -d <directory>
+optional flag: -f <ALL|ASTM>"""
 
 
 def parseDir(dirSource):
