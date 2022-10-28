@@ -37,6 +37,8 @@ Or process the entire directory:
 python3 remisol-log-condenser.py -d <directory>
 ```
 
+Use the -f flag to specify formats.  `-s ALL` will copy all the data to the output file (default).  `-s ASTM` will only copy the ASTM messages.
+
 ## Contributing
 
 Open a pull request I guess.
