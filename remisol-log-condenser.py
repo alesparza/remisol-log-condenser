@@ -91,7 +91,7 @@ def main(argv):
 
   # set up some defaults
   inputFile: str = ''
-  outputFile: str = ''
+  outputFile: str = 'output.xlsx'
   dirSource: str = ''
   save: str = 'ALL'
 
